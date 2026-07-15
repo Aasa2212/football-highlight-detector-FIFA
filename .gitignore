@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Project outputs (large binary files — don't commit these)
+output/*
+!output/.gitkeep
+sample_data/*.mp4
+!sample_data/.gitkeep
+
+# OS
+.DS_Store
